@@ -581,6 +581,9 @@
     (property "Datasheet" "~" (id 3) (at 248.92 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (id 4) (at 248.92 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0daf664f-feed-45aa-b51a-63affb6bd8ad))
     (pin "2" (uuid 579ab0fe-eb3e-4998-a915-9fb1391cf5d9))
     (pin "3" (uuid dc2a5838-4ea4-4a7f-95c9-69dab645f9e6))
@@ -1561,7 +1564,7 @@
       (reference "R11") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/07bbc393-06ba-4054-b697-eb74e9ffbbc2/07711b8e-ba0d-4be5-9f0f-53b157a3ff9e"
-      (reference "R12") (unit 1) (value "100k") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "R12") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/1977354c-fc24-41f7-b0d9-8fc75f9d97d0/b58be049-ec85-443f-a5ee-830f1736d6d0"
       (reference "R13") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
@@ -1597,7 +1600,7 @@
       (reference "R23") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/1977354c-fc24-41f7-b0d9-8fc75f9d97d0/07711b8e-ba0d-4be5-9f0f-53b157a3ff9e"
-      (reference "R24") (unit 1) (value "100k") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "R24") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/a350ffd7-63e2-4f45-a0d6-596535be6bca/b58be049-ec85-443f-a5ee-830f1736d6d0"
       (reference "R25") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
@@ -1633,7 +1636,7 @@
       (reference "R35") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/a350ffd7-63e2-4f45-a0d6-596535be6bca/07711b8e-ba0d-4be5-9f0f-53b157a3ff9e"
-      (reference "R36") (unit 1) (value "100k") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "R36") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/b1ae9058-2689-4a01-b886-f634a52a6c3f/b58be049-ec85-443f-a5ee-830f1736d6d0"
       (reference "R37") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
@@ -1669,7 +1672,7 @@
       (reference "R47") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/b1ae9058-2689-4a01-b886-f634a52a6c3f/07711b8e-ba0d-4be5-9f0f-53b157a3ff9e"
-      (reference "R48") (unit 1) (value "100k") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "R48") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/6bd7ac04-0fbc-4a23-aabe-7091f52c5af8/b58be049-ec85-443f-a5ee-830f1736d6d0"
       (reference "R49") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
@@ -1705,7 +1708,7 @@
       (reference "R59") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/6bd7ac04-0fbc-4a23-aabe-7091f52c5af8/07711b8e-ba0d-4be5-9f0f-53b157a3ff9e"
-      (reference "R60") (unit 1) (value "100k") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "R60") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/d50eb424-810a-4c49-bf2d-d583ef554a7a/b58be049-ec85-443f-a5ee-830f1736d6d0"
       (reference "R61") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
@@ -1741,7 +1744,7 @@
       (reference "R71") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/d50eb424-810a-4c49-bf2d-d583ef554a7a/07711b8e-ba0d-4be5-9f0f-53b157a3ff9e"
-      (reference "R72") (unit 1) (value "100k") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "R72") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/07bbc393-06ba-4054-b697-eb74e9ffbbc2/9f6021e7-39da-4ed5-87ac-e83bb9c3ad92"
       (reference "U1") (unit 1) (value "ADS7028") (footprint "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm")
